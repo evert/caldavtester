@@ -1,0 +1,7 @@
+{
+    "require": {
+        "sabre/dav": "dev-uri-normalize",
+        "sabre/uri": "dev-normalize",
+        "sabre/http": "dev-normalize-uri as 3.0.5"
+    }
+}
