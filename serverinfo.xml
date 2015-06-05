@@ -579,16 +579,16 @@
 			<!-- relative path to user principal resource-->
 			<substitution>
 				<key>$publicprincipal%d:</key>
-				<value>$principals_users:$publicuserid%d:/</value>
+
 			</substitution>
 			<substitution>
 				<key>$publicprincipaluri%d:</key>
-				<value>$principals_uids:$publicuserguid%d:/</value>
+				<value>$principals_users:$publicuserid%d:/</value>
 			</substitution>
 			<!-- relative path to user calendar home-->
 			<substitution>
 				<key>$publiccalendarhome%d:</key>
-				<value>$calendars_uids:$publicuserguid%d:</value>
+				<value>$calendars_uids:$publicuserid%d:</value>
 			</substitution>
 			<!-- relative path to user calendar-->
 			<substitution>
